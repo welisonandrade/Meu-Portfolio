@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #11212d;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(22,20,27,0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+    
+}
+
+header .Logo {
+    margin: 0;
+    padding: 0;
+    width: 3.1em;
+    border-radius: 1em;
+}
+
+nav.Main-Bar a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 3em;
+}
+
+nav.Main-Bar a:hover{
+    text-decoration: underline;
+}
+
+.Presentation{
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.Presentation span{
+    color: rgb(224, 173, 3);
+}
+
+
+.Presentation p{
+    margin-top: 3em;
+    font-size: 15px;
+    
+}
+
+.AboutMe {
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 8em;
+}
+
+.AboutMe p {
+    width: 60%;
+    margin: 3em auto 1em auto;
+   margin-top: 3em;
+}
+
+.AboutMe h2 {
+    color: rgb(224, 173, 3);
+}
+
+.Projects {
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.Projects h2 {
+    color: rgb(224, 173, 3);
+}
+
+.Projects ul {
+    margin-top: 3em;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects ul li {
+    margin: 0em 1.5em;
+    padding: 1em 2em 4em 2em;
+    padding-bottom: 4em;
+    background-color: rgba(22,20,27,0.6);
+    border-radius: 1.2em;
+
+}
+
+.Contact {
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.Contact h2 {
+    color: rgb(224, 173, 3);
+}
+
+.Contact button {
+    background-color: aliceblue;
+    color: rgb(22,20,27);
+    padding: 0.5em;
+    margin: 1.5em 3em;
+    border-radius: 1.5em;
+    border-color: rgb(22,20,27);
+}
+
+.Contact button:hover {
+    background-color: rgb(224, 173, 3);
+}
+
+
+.Contact a {
+    text-decoration: none;
+    color: rgb(22,20,27);
+}
+
