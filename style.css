@@ -88,12 +88,13 @@ nav.Main-Bar a:hover{
 
 .AboutMe div {
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
 
 }
 
 .AboutMe img {
-    width: 150px;
+    width: 120px;
+    height: fit-content;
     margin-left: 16em;
 }
 
