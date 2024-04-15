@@ -71,8 +71,7 @@ nav.Main-Bar a:hover{
 
 #AboutMe {
     text-align: center;
-    margin-bottom: 6em;
-    
+    margin-bottom: 5em;
 }
 
 
@@ -92,6 +91,10 @@ nav.Main-Bar a:hover{
 
 }
 
+#AboutMe div p{
+    
+
+}
 #AboutMe img {
     width: 120px;
     height: fit-content;
@@ -120,16 +123,16 @@ nav.Main-Bar a:hover{
     padding: 0;
     list-style: none;
     display: grid;
+    gap: 2em 1em;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+
 }
 
 #Projects ul li {
-    margin: 0 5.5em 2em 5.5em;
-    padding: 1em 1.0em 3em 1.0em;
-    padding-bottom: 4em;
+    /*margin: 0 7em 2em 7em;*/
+    margin: 0 2em;
+    padding: 0.7em 0.2em 4em 0.2em;
     background-color: rgba(22,20,27,0.6);
-    /*background-color: #11212d;*/
     border-radius: 1.2em;
 
 }
@@ -143,9 +146,15 @@ nav.Main-Bar a:hover{
     text-decoration: underline;
 }
 
+#Projects p {
+    text-align: justify;
+    padding: 0em 1.5em;
+}
+
 hr {
     margin: 0;
     padding: 0;
+    border-color: #11212D;
 }
 
 #Contact {
