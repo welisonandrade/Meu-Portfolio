@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-color: #11212D;*/
     background: linear-gradient(to bottom, #11212D, #253745);
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -91,10 +90,6 @@ nav.Main-Bar a:hover{
 
 }
 
-#AboutMe div p{
-    
-
-}
 #AboutMe img {
     width: 120px;
     height: fit-content;
@@ -103,9 +98,12 @@ nav.Main-Bar a:hover{
 
 
 #AboutMe p {
+    background-color: rgba(22,20,27,0.6);
     width: 47%;
-    padding: 0 2.5em 0 2.5em;
+    padding: 1em 2em 0 2em;
+    border-radius: 1em;
     text-align: justify;
+    margin-left: 0.8em;
 }
 
 
@@ -129,7 +127,6 @@ nav.Main-Bar a:hover{
 }
 
 #Projects ul li {
-    /*margin: 0 7em 2em 7em;*/
     margin: 0 2em;
     padding: 0.7em 0.2em 4em 0.2em;
     background-color: rgba(22,20,27,0.6);
