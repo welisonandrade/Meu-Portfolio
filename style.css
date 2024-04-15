@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-color: #11212d;*/
-    /*background-color: rgb(22,20,27);*/
-    background-color: rgb(26, 23, 32);
+    /*background-color: #11212D;*/
+    background: linear-gradient(to bottom, #11212D, #253745);
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,7 +38,7 @@ nav.Main-Bar a:hover{
     text-decoration: underline;
 }
 
-.Presentation{
+#Presentation{
     padding-top: 4em;
     text-align: center;
     margin-bottom: 5em;
@@ -47,7 +46,7 @@ nav.Main-Bar a:hover{
    
 }
 
-.Presentation img {
+#Presentation img {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,127 +58,138 @@ nav.Main-Bar a:hover{
 
 }
 
-.Presentation span{
+#Presentation span{
     color: rgb(224, 173, 3);
 }
 
 
-.Presentation p{
+#Presentation p{
     margin-top: 2em;
     font-size: 15px;
     
 }
 
-.AboutMe {
-    background-color: rgba(22,20,27,0.6);
+#AboutMe {
     text-align: center;
-    margin-bottom: 8em;
+    margin-bottom: 6em;
+    
 }
 
-.AboutMe div .Image {
-    width: 200px;
-    height: 200px;
-}
 
-.AboutMe h2 {
+#AboutMe h2 {
     padding-top: 0.3em;
+    color: aliceblue
+}
+
+#AboutMe span{
     color: rgb(224, 173, 3);
+    /**/
 }
 
-.AboutMe div {
+#AboutMe div {
     display: flex;
-    align-items: center;
+    justify-content: center;
 
 }
 
-.AboutMe img {
+#AboutMe img {
     width: 120px;
     height: fit-content;
-    margin-left: 16em;
+    border-radius: 15%;
 }
 
 
-.AboutMe p {
-    width: 35%;
+#AboutMe p {
+    width: 47%;
     padding: 0 2.5em 0 2.5em;
     text-align: justify;
 }
 
 
-.Projects {
+#Projects {
     text-align: center;
-    margin-bottom: 8em;
+    margin-bottom: 3em;
 }
 
-.Projects h2 {
-    color: rgb(224, 173, 3);
+#Projects h2 {
+    color: aliceblue;
 }
 
-.Projects ul {
-    margin-top: 3em;
+#Projects ul {
+    margin-top: 1em;
+    padding: 0;
     list-style: none;
-    padding-left: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 }
 
-.Projects ul li {
-    margin: 0em 1.5em;
-    padding: 1em 2em 4em 2em;
+#Projects ul li {
+    margin: 0 5.5em 2em 5.5em;
+    padding: 1em 1.0em 3em 1.0em;
     padding-bottom: 4em;
-    /*background-color: rgba(22,20,27,0.6);*/
-    /*background-color: #11212d;*/
     background-color: rgba(22,20,27,0.6);
+    /*background-color: #11212d;*/
     border-radius: 1.2em;
 
 }
 
-.Projects ul li a {
-    color: aliceblue;
+#Projects ul li a {
+    color: rgb(224, 173, 3);
     text-decoration: none;
 }
 
-.Projects ul li a:hover {
+#Projects ul li a:hover {
     text-decoration: underline;
 }
 
-.Contact {
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+#Contact {
     text-align: center;
 }
 
-.Contact h2 {
-    color: rgb(224, 173, 3);
+#Contact h2 {
+    color: aliceblue;
+    margin-top: 0.2em;
+    margin-bottom: 0;
 }
 
-.Contact button {
-    background-color: rgb(224, 173, 3);
-    /*background-color: aliceblue;*/
+#Contact p{
+    margin-top: 0.5em;
+    color: rgb(224, 173, 3);
+    
+}
+
+#Contact button {
+    
+    background-color: aliceblue;
     color: rgb(22,20,27);
-    padding: 0.5em;
-    margin: 1.5em 2em;
+    padding: 0.4em;
+    margin: 1em 2em;
     border-radius: 1.5em;
     border-color: rgb(22,20,27);
 }
 
-.Contact button:hover{
-    background-color: #11212d;
+#Contact button:hover{
+    background-color: rgb(224, 173, 3);
 }
 
 
-.Contact a {
+#Contact a {
     text-decoration: none;
-    /*color: rgb(22,20,27);*/
     color: rgb(22,20,27);
 }
 
-.Contact a:hover {
+#Contact a:hover {
     color: white;
 }
 
 footer {
-    /*background-color: rgb(22,20,27);*/
-    /*background-color: #11212d;*/
-    background-color: rgba(22,20,27,0.6);
+    background-color: rgb(22,20,27);
     text-align: center;
     padding: 0.1em 0 0.1em 0;
 }
