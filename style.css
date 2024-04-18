@@ -93,7 +93,8 @@ nav.Main-Bar a:hover{
     object-fit: cover;
     margin-top: 0;
     width: 120px;
-    height: fit-content;
+    object-fit: contain;
+    height: auto;
     border-radius: 15%;
 }
 
@@ -101,11 +102,11 @@ nav.Main-Bar a:hover{
 #AboutMe p {
     background-color: rgba(22,20,27,0.6);
     width: 46.3%;
-    padding: 1em 1.5em 2em 1.5em;
+    padding: 1em 2.5em 2em 1.5em;
     border-radius: 1em;
     text-align: justify;
     margin-top: 0;
-    margin-left: 1.2em;
+    margin-left: 1em;
 
 }
 
