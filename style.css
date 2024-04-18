@@ -81,7 +81,6 @@ nav.Main-Bar a:hover{
 
 #AboutMe span{
     color: rgb(224, 173, 3);
-    /**/
 }
 
 #AboutMe div {
@@ -91,6 +90,7 @@ nav.Main-Bar a:hover{
 }
 
 #AboutMe img {
+    margin-top: 0;
     width: 120px;
     height: fit-content;
     border-radius: 15%;
@@ -99,11 +99,13 @@ nav.Main-Bar a:hover{
 
 #AboutMe p {
     background-color: rgba(22,20,27,0.6);
-    width: 47%;
-    padding: 1em 2em 0 2em;
+    width: 46.3%;
+    padding: 1em 1.5em 2em 1.5em;
     border-radius: 1em;
     text-align: justify;
-    margin-left: 0.8em;
+    margin-top: 0;
+    margin-left: 1.2em;
+
 }
 
 
