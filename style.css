@@ -89,13 +89,15 @@ nav.Main-Bar a:hover{
 
 }
 
+#AboutMe span{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
 #AboutMe img {
-    object-fit: cover;
-    margin-top: 0;
-    width: 120px;
-    object-fit: contain;
-    height: auto;
-    border-radius: 15%;
+    width: 100%;
 }
 
 
@@ -114,6 +116,7 @@ nav.Main-Bar a:hover{
 #Projects {
     text-align: center;
     margin-bottom: 3em;
+
 }
 
 #Projects h2 {
@@ -126,7 +129,9 @@ nav.Main-Bar a:hover{
     list-style: none;
     display: grid;
     gap: 2em 1em;
-
+    /*width: 50%;
+    height: 50%;
+    margin: 0 auto;*/
 }
 
 @media (max-width: 768px) {  
@@ -142,7 +147,6 @@ nav.Main-Bar a:hover{
 }
 
 #Projects ul li {
-    margin: 0 2em;
     padding: 0.7em 0.2em 4em 0.2em;
     background-color: rgba(22,20,27,0.6);
     border-radius: 1.2em;
@@ -154,9 +158,11 @@ nav.Main-Bar a:hover{
     text-decoration: none;
 }
 
+
 #Projects ul li a:hover {
     text-decoration: underline;
 }
+
 
 #Projects p {
     text-align: justify;
