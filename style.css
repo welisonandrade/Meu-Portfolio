@@ -1,5 +1,5 @@
 main {
-    padding: 0 2em;
+    padding: 0.5em 3em;
     box-sizing: border-box;
 }
 
@@ -45,8 +45,8 @@ nav.Main-Bar a:hover{
 #Presentation{
     padding-top: 4em;
     text-align: center;
-    margin-bottom: 5em;
     position: relative;
+    margin-bottom: 4em;
 }
 
 #Presentation .Text {
@@ -80,13 +80,15 @@ nav.Main-Bar a:hover{
 
 #AboutMe {
     text-align: center;
-    margin-bottom: 5em;
+    justify-content: center;
+    margin-bottom: 6em;
 }
 
 
 #AboutMe h2 {
-    padding-top: 0.5em;
-    color: aliceblue
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 0;
 }
 
 #AboutMe span{
@@ -94,12 +96,16 @@ nav.Main-Bar a:hover{
 }
 
 #AboutMe div {
+    margin-top: 0.5em;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 #AboutMe span{
+    margin-bottom: 1em;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -107,15 +113,14 @@ nav.Main-Bar a:hover{
     position: relative;
 }
 #AboutMe img {
-    box-sizing: border-box;
     width: 100%;
 }
 
 
 #AboutMe p {
     background-color: rgba(22,20,27,0.6);
-    width: 46.3%;
-    padding: 1em 2.5em 2em 1.5em;
+    width: 50%;
+    padding: 1em;
     border-radius: 1em;
     text-align: justify;
     margin-top: 0;
@@ -139,26 +144,30 @@ nav.Main-Bar a:hover{
     padding: 0;
     list-style: none;
     display: grid;
-    gap: 2em 1em;
-    /*width: 50%;
-    height: 50%;
-    margin: 0 auto;*/
+    gap: 2em 2em;
 }
 
 @media (max-width: 768px) {  
     #Projects ul {
-        grid-template-columns: repeat(2, 1fr);  /* Duas colunas mobile */
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas mobile */
+        justify-content: center;
+    }
+
+    #AboutMe p{
+        width: auto;
     }
 }
 
 @media (min-width: 768px) {  /* Três colunas em telas maiores */
     #Projects ul {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 19em;
+        justify-content: center;
     }
 }
 
 #Projects ul li {
-    padding: 0.7em 0.2em 4em 0.2em;
+    padding: 0.7em 0.2em 1em 0.2em;
     background-color: rgba(22,20,27,0.6);
     border-radius: 1.2em;
 
@@ -211,11 +220,6 @@ hr {
     border-color: rgb(22,20,27);
 }
 
-/*.Linha{
-    border: solid 1px rgba(22,20,27,0.7);
-    
-}*/
-
 #Contact {
     background-color: rgba(22, 20, 27, 0.6);
     border-top-left-radius: 2em;
@@ -223,7 +227,7 @@ hr {
 }
 
 #Contact h2 {
-    margin: 0;
+    margin-top: 1em;
     padding-top: 0.3em;
 }
 
