@@ -145,6 +145,7 @@ nav.Main-Bar a:hover{
     list-style: none;
     display: grid;
     gap: 2em 2em;
+    
 }
 
 @media (max-width: 768px) {  
@@ -186,6 +187,7 @@ nav.Main-Bar a:hover{
 
 #Projects p {
     text-align: justify;
+    box-sizing: border-box;
     padding: 0em 1.5em;
 }
 
