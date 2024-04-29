@@ -159,7 +159,7 @@ nav.Main-Bar a:hover{
         width: auto;
     }
 }
-
+/*ajuste*/
 @media (min-width: 768px) {  /* Três colunas em telas maiores */
     #Projects ul {
         grid-template-columns: repeat(2, 1fr);
